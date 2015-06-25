@@ -1,12 +1,14 @@
 body {
     margin: 60px auto;
     width: 70%;
+    padding-bottom: 100px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 1.5em;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -23,22 +25,43 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-h4{
+h4{ 
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #999;
 }
-p {
-    font-size: 1.2em; 
+p { 
+    font-size: 1.2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    line-height: 1.4em;
     color: #333;
+    line-height: 1.4em;
+}
+div .container p a {
+    color: #4183C4;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+
+}
+footer .container {
+    font-size: 1.2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #333;
+    padding: 20px;
+}
+footer .container ul {
+    float: right;
+    display: block;
 }
 
+footer .container p a{
+    color: #4183C4;
+}
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
