@@ -3,6 +3,7 @@ body {
     width: 70%;
     padding-bottom: 100px;
 }
+/* Static Header Styling */
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -14,13 +15,20 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+/* Resume Page Styling */
+.resume {
+    padding: 0px;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+.resume a { color: #4183C4; }
 a {
     text-decoration: none;
     color: #999;
 }
-a:hover {
-    text-decoration: underline;
-}
+a:hover { text-decoration: underline; }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -38,6 +46,7 @@ p {
 div .container p a {
     color: #4183C4;
 }
+/* Static Footer Styling */
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -46,7 +55,6 @@ footer {
     position: absolute;
     height: 100px;
     width: 100%;
-
 }
 footer .container {
     font-size: 1.2em;
@@ -54,19 +62,9 @@ footer .container {
     color: #333;
     padding: 20px;
 }
-footer .container ul {
+footer .container ul { 
     float: right;
-    display: block;
+    line-height: 15px; 
 }
-
-footer .container p a{
-    color: #4183C4;
-}
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
+footer .container p { float: left; }
+footer .container p a { color: #4183C4; }
