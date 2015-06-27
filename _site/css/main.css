@@ -4,7 +4,9 @@ body {
     padding-bottom: 100px;
 }
 /* Static Header Styling */
+nav { background-color: 000; }
 nav ul, footer ul {
+    text-align: center;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -30,31 +32,43 @@ a {
 }
 a:hover { text-decoration: underline; }
 h1 {
+    text-align: center;
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h4{ 
+    text-align: center;
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding-bottom: 30px;
 }
 p { 
+    text-align: center;
     font-size: 1.2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #333;
     line-height: 1.4em;
 }
-div .container p a {
-    color: #4183C4;
+div .container p a { color: #4183C4; }
+div img { 
+    padding-bottom: 40px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%; 
+    width: 60%;     
 }
+
 /* Static Footer Styling */
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    bottom: 0;
-    left: 0;
-    position: absolute;
     height: 100px;
     width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: #000;
 }
 footer .container {
     font-size: 1.2em;
@@ -66,5 +80,5 @@ footer .container ul {
     float: right;
     line-height: 15px; 
 }
-footer .container p { float: left; }
+footer .container p { text-align: center; }
 footer .container p a { color: #4183C4; }
