@@ -4,9 +4,14 @@ body {
     padding-bottom: 100px;
 }
 /* Static Header Styling */
+body { background-color: #E0E0E0; }
 nav {
     width: 100%;
-    background-color: #000; 
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 1px solid #E0E0E0; 
 }
 nav ul, footer ul {
     text-align: center;
@@ -37,6 +42,8 @@ a {
 }
 a:hover { text-decoration: underline; }
 h1 {
+    padding-top: 60px;
+    padding-bottom: 0px;
     text-align: center;
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -45,30 +52,31 @@ h4{
     text-align: center;
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding-bottom: 30px;
+    padding-top: -10px;
+    padding-bottom: 0px;
 }
 p { 
     text-align: center;
     font-size: 1.2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #333;
+    color: #000;
     line-height: 1.4em;
 }
 div .container p a { color: #4183C4; }
-div img { 
+div img {  
     padding-bottom: 40px;
     display: block; 
     margin-left: auto;
     margin-right: auto;
     height: 60%; 
-    width: 60%;     
-}
+    width: 60%;      
+}  
 
 /* Static Footer Styling */
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #E0E0E0;
     font-size: .8em;
-    height: 100px;
+    height: 80px;
     width: 100%;
     bottom: 0;
     left: 0;
