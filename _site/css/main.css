@@ -1,10 +1,11 @@
 body {
     margin: 60px auto;
     width: 70%;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
+    background-color: #E0E0E0;
 }
-/* Static Header Styling */
-body { background-color: #E0E0E0; }
+/* Static Header Styling 
+  keeps nav bar at top of page */
 nav {
     width: 100%;
     background-color: #000;
@@ -13,7 +14,8 @@ nav {
     left: 0;
     border-top: 1px solid #E0E0E0; 
 }
-nav ul, footer ul {
+/* list elements of nav bar */
+nav ul, footer ul { 
     text-align: center;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -22,13 +24,14 @@ nav ul, footer ul {
     font-size: 1.5em;
     background-color: black;
 }
+/* list items cont. */
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
     background-color: black;
 }
 /* Resume Page Styling */
-.resume {
+div .resume  {
     padding: 0px;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
@@ -40,21 +43,23 @@ a {
     text-decoration: none;
     color: #fff;
 }
+/* shows underline on mouse hover */
 a:hover { text-decoration: underline; }
+/* Page Styling */
+/* Page Title */
 h1 {
     padding-top: 60px;
-    padding-bottom: 0px;
     text-align: center;
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+/* Page Description */
 h4{ 
     text-align: center;
     font-size: 1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding-top: -10px;
-    padding-bottom: 0px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif'; 
 }
+/* Body */
 p { 
     text-align: center;
     font-size: 1.2em;
@@ -62,8 +67,10 @@ p {
     color: #000;
     line-height: 1.4em;
 }
+/* link color */ 
 div .container p a { color: #4183C4; }
-div img {  
+/* image properties */
+div img { 
     padding-bottom: 40px;
     display: block; 
     margin-left: auto;
@@ -71,8 +78,8 @@ div img {
     height: 60%; 
     width: 60%;      
 }  
-
-/* Static Footer Styling */
+/* Static Footer Styling 
+  keeps footer down */
 footer {
     border-top: 1px solid #E0E0E0;
     font-size: .8em;
@@ -83,15 +90,18 @@ footer {
     position: fixed;
     background-color: #000; 
 }
-footer .container { 
+/* footer div used to hold list */
+footer .container  { 
     font-size: 1.2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 20px;
 }
+/* footer list */
 footer .container ul { 
     float: right;
     line-height: 15px;
     padding-right: 50px; 
 }
+/* footer text settings */
 footer .container p { color: white; text-align: center; }
 footer .container p a { color: #4183C4; }
