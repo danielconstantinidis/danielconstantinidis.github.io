@@ -5,16 +5,16 @@
     <description>This is a personal website dedicated to my online portfolio.</description>
     <link>https://danielconstantinidis.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 04 Jul 2015 11:32:34 -0400</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2015 11:32:34 -0400</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2015 18:14:35 -0400</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 18:14:35 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Project 1</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 -0400</pubDate>
-        <link>https://danielconstantinidis.github.io/web%20development/2014/07/18/project-1/</link>
-        <guid isPermaLink="true">https://danielconstantinidis.github.io/web%20development/2014/07/18/project-1/</guid>
+        <title>Project 2</title>
+        <description>An e-commerce website used to sell art online, based in Barrie.</description>
+        <pubDate>Mon, 18 May 2015 00:00:00 -0400</pubDate>
+        <link>https://danielconstantinidis.github.io/web%20development/2015/05/18/project-2/</link>
+        <guid isPermaLink="true">https://danielconstantinidis.github.io/web%20development/2015/05/18/project-2/</guid>
         
         
         <category>web development</category>
@@ -22,11 +22,11 @@
       </item>
     
       <item>
-        <title>Project 2</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 -0400</pubDate>
-        <link>https://danielconstantinidis.github.io/web%20development/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">https://danielconstantinidis.github.io/web%20development/2014/07/17/project-2/</guid>
+        <title>Project 1</title>
+        <description>Created a manageable website for a local Italian restaurant in Markham.</description>
+        <pubDate>Fri, 18 Jul 2014 00:00:00 -0400</pubDate>
+        <link>https://danielconstantinidis.github.io/web%20development/2014/07/18/project-1/</link>
+        <guid isPermaLink="true">https://danielconstantinidis.github.io/web%20development/2014/07/18/project-1/</guid>
         
         
         <category>web development</category>
