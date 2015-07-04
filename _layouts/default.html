@@ -1,34 +1,20 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-<head>
-	<title>{{ page.title }}</title>
-	<!-- link to main stylesheet -->
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
-<body>
-	<nav>
-		<ul>
-	        	<li><a href="/">Home</a></li>
-		        <li><a href="/about.html">About</a></li>
-	        	<li><a href="/portfolio.html">Portfolio</a></li>
-			<li><a href="/resume.html">Resume</a></li>
-	    	</ul>
-	</nav>
-	<div class="container">
-			
-		{{ content }}
-			
-	</div>
-	<!-- /.container -->
-	<footer>
-	<div class="container">
-		<ul>
-                        <li><a href="mailto:daniel.constantinidis@gmail.com">Email</a></li>
-			<li><a href="https://www.linkedin.com/in/danielconstantinidis">Linkedin</a></li>
-                        <li><a href="https://github.com/danielconstantinidis">Github</a></li>
-                </ul>
-		<p>Powered by Jekyll - a static <a href="https://help.github.com/articles/using-jekyll-with-pages/">website builder</a></p>
-	</div>
-	</footer>
-</body>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav.html %}
+    {% include header.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
+
+    {% if site.contact == "static" %}
+    {% include contact_static.html %}
+    {% else %}
+    {% include contact.html %}
+    {% endif %}
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+    </body>
 </html>
