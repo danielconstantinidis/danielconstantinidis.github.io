@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2015-05-18
-img: cake1.png
+img: fineartexperience.png
 alt: fineartexperience
 project-date: May 2015
 client: The Fine Art Experience

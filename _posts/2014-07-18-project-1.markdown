@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin2.png
+img: cucinalocale.png
 alt: cucinalocale
 project-date: November 2014
 client: Cucina Locale
