@@ -22,12 +22,14 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: linkedin
-    url: https://linkedin.com/in/danielconstantinidis
-  - title: twitter
-    url: https://twitter.com
   - title: github
     url: https://github.com/danielconstantinidis
+  - title: linkedin
+    url: https://linkedin.com/in/danielconstantinidis
+  - title: facebook
+    url: https://facebook.com/daniel.c0nstantinidis
+  - title: twitter
+    url: https://twitter.com/webdesignbydan
 
 # Postal address (add as many lines as necessary)
 address:
